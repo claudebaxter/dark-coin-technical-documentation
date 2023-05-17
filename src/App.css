@@ -1,1 +1,77 @@
-.
+.App {
+  display: flex; 
+  height: 100vh; 
+  width: 100%;
+  overflow: hidden; 
+}
+
+.nav-container {
+  width: 40%;
+  position: fixed; 
+  top: 0; 
+  bottom: 0; 
+  left: 0; 
+  z-index: 1; 
+}
+
+.navbar {
+  width: 90%;
+  overflow-y: auto;
+  border-right: 3px solid white;
+  height: 100%;
+  position: sticky; 
+  top: 0; 
+}
+
+.icon1 {
+  display: flex;
+  margin: auto;
+  height: 15%;
+}
+
+.content {
+  flex-grow: 1; 
+  padding: 16px; 
+  width: 60%;
+  position: relative;
+  overflow-y: auto; 
+  margin-left: 40%;
+}
+
+h1 {
+  display: flex;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-align: center; 
+  justify-content: center;
+}
+
+.triangletop {
+  background-color: white;
+  height: 10em;
+  align-content: center;
+  vertical-align: top;
+  clip-path: polygon(100% 0, 0 0, 50% 100%);
+  margin-top: -20px;
+  margin-bottom: 25px;
+}
+
+.icon2 {
+  display: flex;
+  margin: auto;
+  height: 25%;
+}
+
+.trianglebottom {
+  background-color: white;
+  height: 10em;
+  align-content: center;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-bottom: -30px;
+  margin-top: 175px;
+}
