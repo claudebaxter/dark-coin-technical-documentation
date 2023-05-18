@@ -8,6 +8,21 @@ function App() {
         <div className="navbar">
           <h1>Navbar Content</h1>
           <img className="icon1" src="/Icon-old.png"></img>
+          <div className="navbutton">
+            <img className="navicon" src="/Icon-old.png"></img> <p>Home</p>
+          </div>
+          <div className="navbutton">
+            <img className="navicon" src="/roadmap.png"></img> <p>roadMap</p>
+          </div>
+          <div className="navbutton">
+            <img className="navicon" src="/DarkPaper.png"></img> <p>darkPaper</p>
+          </div>
+          <div className="navbutton">
+            <img className="navicon" src="/DarkRepo.png"></img> <p>darkRepo</p>
+          </div>
+          <div className="navbutton">
+            <img className="navicon" src="/Icon-new.png"></img> <p>App</p>
+          </div>
           <div className="soc-container">
             <img className="socials" src="/discord-icon.png"></img>
             <img className="socials" src="/vestige-icon.png"></img>
