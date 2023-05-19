@@ -1,6 +1,29 @@
+import React, { useState } from 'react';
 import './App.css';
+import Home from './components/Home';
+import Roadmap from './components/Roadmap';
+import Darkpaper from './components/Darkpaper';
 
 function App() {
+  const [activeComponent, setActiveComponent] = useState('Home');
+
+  const renderComponent = () => {
+    switch (activeComponent) {
+      case 'Home':
+        return <Home />;
+      case 'Roadmap':
+        return <Roadmap />;
+      case 'Darkpaper':
+        return <Darkpaper />;
+      default:
+        return null;
+    }
+  };
+
+  const handleNavButtonClick = (component) => {
+    setActiveComponent(component);
+  };
+
   return (
     
     <div className="App">
@@ -8,13 +31,13 @@ function App() {
         <div className="navbar">
           <h1>Navbar Content</h1>
           <img className="icon1" src="/Icon-old.png"></img>
-          <div className="navbutton">
+          <div className="navbutton" onClick={() => handleNavButtonClick('Home')}>
             <img className="navicon" src="/Icon-old.png"></img> <p>Home</p>
           </div>
-          <div className="navbutton">
+          <div className="navbutton" onClick={() => handleNavButtonClick('Roadmap')}>
             <img className="navicon" src="/roadmap.png"></img> <p>roadMap</p>
           </div>
-          <div className="navbutton">
+          <div className="navbutton" onClick={() => handleNavButtonClick('Darkpaper')}>
             <img className="navicon" src="/DarkPaper.png"></img> <p>darkPaper</p>
           </div>
           <div className="navbutton">
@@ -39,12 +62,9 @@ function App() {
       </div>
       <div className="content">
           <div className="triangletop"></div>
-          <img className="icon2" src="/Icon-new.png"></img>
-          <h1 className="title">Dark Coin Technical Documentation</h1>
+            {renderComponent()}
           <div className="trianglebottom"></div>
       </div>
-      
-      
     </div>
   );
 }
