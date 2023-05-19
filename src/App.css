@@ -165,14 +165,31 @@ h1 {
 }
 
 @media (max-width: 624px) {
-  .icon1,
+  .Home {
+    margin-top: 1000px;
+  }
+  
+  .icon1 {
+    height: 100px;
+  }
+
+  .soc-container {
+    margin-top: 100px;
+  }
+
   .soc-container,
   .soc-container2 {
-    display: none;
+    width: 100%;
+  }
+
+  .socials {
+    width: 25px;
+    margin: 2.5px;
+    border-radius: 50%;
   }
 
   .icon2 {
-    height: 15%;
+    height: 125px;
   }
 
   .navbar {

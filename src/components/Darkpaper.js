@@ -42,7 +42,7 @@ function Darkpaper() {
     <div>
         <div className="triangletopdp"></div>
         <img className="icon2" src="/Icon-new.png" alt="Icon" />
-        <h1 className="title">Dark Coin Darkpaper Documentation</h1>
+        <h1 className="title">Dark Coin Darkpaper</h1>
         <div className="darkpaper-container">
         {renderContent()}
         </div>
