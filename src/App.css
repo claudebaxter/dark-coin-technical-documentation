@@ -110,10 +110,25 @@ h1 {
   margin-bottom: 25px;
 }
 
+.triangletopdp {
+  background-color: white;
+  height: 10em;
+  align-content: center;
+  vertical-align: top;
+  clip-path: polygon(100% 0, 0 0, 50% 100%);
+  margin-top: 400px;
+  margin-bottom: 25px;
+}
+
 .icon2 {
   display: flex;
   margin: auto;
   height: 25%;
+}
+
+.darkpaper-container {
+  max-height: 400px; /* Adjust the height as needed */
+  overflow-y: auto;
 }
 
 .trianglebottom {

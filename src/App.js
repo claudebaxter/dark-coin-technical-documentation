@@ -81,9 +81,7 @@ function App() {
         </div>
       </div>
       <div className="content">
-          <div className="triangletop"></div>
-            {renderComponent()}
-          <div className="trianglebottom"></div>
+        {renderComponent()}
       </div>
     </div>
   );
