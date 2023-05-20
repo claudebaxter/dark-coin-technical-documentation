@@ -100,6 +100,42 @@ h1 {
   justify-content: center;
 }
 
+.titlerm {
+  display: flex;
+  margin: 35px auto 35px auto;
+  text-align: center;
+  justify-content: center;
+  top: 75px;
+  position: relative;
+}
+
+.line {
+  display: flex;
+  width: 90%;
+  height: 0px;
+  margin-top: 25px;
+  background-color: white;
+  border: 3px solid white;
+  align-items: center;
+  top: 75px;
+  position: relative;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border: 3px solid white;
+  border-radius: 50%;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 0 auto 0 auto;
+}
+
 .triangletop {
   background-color: white;
   height: 10em;
@@ -118,6 +154,13 @@ h1 {
   clip-path: polygon(100% 0, 0 0, 50% 100%);
   margin-top: 400px;
   margin-bottom: 25px;
+}
+
+.triangletoprm {
+  background-color: white;
+  height: 10em;
+  vertical-align: top;
+  clip-path: polygon(100% 0, 0 0, 50% 100%);
 }
 
 .icon2 {
@@ -168,7 +211,7 @@ h1 {
   .Home {
     margin-top: 1000px;
   }
-  
+
   .icon1 {
     height: 100px;
   }
