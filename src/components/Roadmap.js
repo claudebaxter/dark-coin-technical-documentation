@@ -18,7 +18,12 @@ function Roadmap() {
                 <div className="circle" 
                     onClick={() => handleCircleClick({
                         title: "Q1 2022",
-                        description: "Your content for Q1 2022",
+                        description: "• 02/12/21 V1 Token minted ASA 601894079",
+                        description2: 
+                            "• 02/12/22 V1 LP initialized on Tinyman (TRX ID: NALOAHDFJIY4TLYSON25HIYS2OXCHA2T43I7JJC27PXAZOHOZP7A)",
+                        description3: "• 02/19/22 Early LP backer airdrop delivered",
+                        description4: "• 02/21/22 - 03/24/22 Published first darkpaper edition",
+                        description5: "• 02/25/22 Staking rewards go live",
                     })}>Q1</div>
                 <div className="circle" 
                     onClick={() => handleCircleClick({

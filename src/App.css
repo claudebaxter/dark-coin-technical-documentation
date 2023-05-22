@@ -156,8 +156,32 @@ h1 {
   width: 390px;
   height: 490px;
   padding: 20px;
-  text-align: center;
+  text-align: left;
+  white-space: normal;
+  word-wrap: break-word;
   z-index: 9999;
+}
+
+.close {
+  display: flex;
+  margin: auto;
+}
+
+.quarter-wrapper {
+  display: flex;
+  margin: auto;
+  text-align: center;
+}
+
+.trx-id {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
+
+.trx-id.expanded {
+  white-space: normal;
+  word-wrap: break-word;
 }
 
 .triangletop {
