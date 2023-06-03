@@ -11,6 +11,9 @@ const CircleModal = ({ circleData, onClose }) => {
         <p>{circleData.description3}</p>
         <p>{circleData.description4}</p>
         <p>{circleData.description5}</p>
+        <p>{circleData.description6}</p>
+        <p>{circleData.description7}</p>
+        <p>{circleData.description8}</p>
         {/* Close button */}
         <button className="close" onClick={onClose}>Close</button>
       </div>
