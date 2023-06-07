@@ -78,12 +78,13 @@ function Roadmap() {
                     onClick={() => handleCircleClick({
                         title: "Q3 2023",
                         description: "• 2023 Multi-Sig Election Scheduled",
-                        description2: "• ",
-                        description3: "• ",
-                        description4: "• ",
+                        description2: "• DAO proposal: Arena Bossfights (Lottery)?",
+                        description3: "• DAO proposal: Game Project(s)?",
+                        description4: "• DAO proposal: Dark Coin xGov proposal?",
                         description5: "• ",
-                        description6: "• ",
-                        description7: "• ",
+                        description6: "• Tie in Council dApp to discord bot",
+                        description7: "• Development of rewards claim dApp features",
+                        description8: "• ",
                     })}>Q3</div>
                 <div className="circle" 
                     onClick={() => handleCircleClick({
