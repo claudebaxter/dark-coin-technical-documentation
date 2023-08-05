@@ -68,6 +68,12 @@ a {
   padding-left: 5px;
 }
 
+.navicon-repo {
+  height: 19.84px;
+  padding-right: 15px;
+  padding-left: 5px;
+}
+
 .soc-container, .soc-container2 {
   display: flex;
   margin: auto;

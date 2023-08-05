@@ -42,7 +42,7 @@ function App() {
           </div>
           <a href="https://github.com/elborracho420/Dark-Coin-ASA-1088771340">
             <div className="navbutton">
-              <img className="navicon" src="/DarkRepo.png"></img> <p>darkRepo</p>
+              <img className="navicon-repo" src="/DarkRepo.png"></img> <p>darkRepo</p>
             </div>
           </a>
           <a href="https://dark-coin.com">
