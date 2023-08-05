@@ -13,7 +13,7 @@ function Darkpaper() {
         const { data } = response;
         setContent(data);
       } catch (error) {
-        console.error('Error fetching content:', error);
+        console.error('Error fetching darkpaper content:', error);
       }
     };
 

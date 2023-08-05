@@ -48,6 +48,15 @@
   cursor: pointer;
 }
 
+.Home {
+  position: relative;
+  margin-top: 900px;
+}
+
+.bullet {
+  margin-left: 35px;
+}
+
 a {
   text-decoration: none;
   color: white;
@@ -257,7 +266,7 @@ h1 {
 
 @media (max-width: 624px) {
   .Home {
-    margin-top: 1000px;
+    margin-top: 2500px;
   }
 
   .icon1 {
