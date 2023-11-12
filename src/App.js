@@ -50,6 +50,11 @@ function App() {
               <img className="navicon" src="/Icon-new.png"></img> <p>App</p>
             </div>
           </a>
+          <a href="https://app.tinyman.org/#/swap?asset_in=0&asset_out=1088771340">
+            <div className="navbutton">
+              <img className="navicon" src="/Tinyman.png"></img> <p>Buy Darkcoin</p>
+            </div>
+          </a>
           <div className="soc-container">
             <a href="https://discord.gg/xdZ6V5ybmq">
               <img className="socials" src="/discord-icon.png"></img>
@@ -74,7 +79,7 @@ function App() {
             <a href="https://github.com/ToysToTinkerWith/DarkCoin">
               <img className="socials" src="/github-icon.png"></img>
             </a>
-            <a href="https://www.youtube.com/watch?v=o-YBDTqX_ZU">
+            <a href="https://www.youtube.com/@Dark-Coin">
               <img className="socials" src="/youtube-icon.png"></img>
             </a>  
           </div>
