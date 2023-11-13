@@ -29,7 +29,7 @@ function App() {
     <div className="App">
       <div className="nav-container">
         <div className="navbar">
-          <h1>Navbar Content</h1>
+          <h1 className="navbarTitle">Navbar Content</h1>
           <img className="icon1" src="/Icon-old.png"></img>
           <div className="navbutton" onClick={() => handleNavButtonClick('Home')}>
             <img className="navicon" src="/Icon-old.png"></img> <p>Home</p>

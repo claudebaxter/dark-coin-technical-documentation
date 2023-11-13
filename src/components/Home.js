@@ -30,7 +30,7 @@ function Home() {
     
             if (line.startsWith('# ')) {
               const text = line.replace('#', '').trim();
-              elements.push(<h1 key={i}>{text}</h1>);
+              elements.push(<h2 key={i}>{text}</h2>);
             } else if (line.startsWith('## ')) {
               const text = line.replace('##', '').trim();
               elements.push(<h2 key={i}>{text}</h2>);

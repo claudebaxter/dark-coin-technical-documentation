@@ -272,11 +272,50 @@ h1 {
 
 @media (max-width: 624px) {
   .Home {
-    margin-top: 2500px;
+    margin-top: 2300px;
+  }
+
+  .modal-content {
+    width: 300px;
+    height: 540px;
+  }
+
+  .triangletopdp, .triangletoprm, .trianglebottom, .icon2 {
+    display: none;
   }
 
   .icon1 {
-    height: 100px;
+    display: none;
+  }
+
+  .navbar {
+    padding-top: 40%;
+  }
+
+  .navbarTitle {
+    display: none;
+  }
+
+  .titlerm, .title {
+    font-size: 3vh;
+  }
+
+  .navbutton {
+    width: 125px;
+    height: 30px;
+    justify-content: center;
+  }
+
+  .circle {
+    font-size: 2.5vh;
+  }
+
+  .Home .h1, .title, .homep-container, {
+    font-size: 2vh;
+  }
+
+  .Home .p {
+    font-size: 2vh;
   }
 
   .soc-container {
